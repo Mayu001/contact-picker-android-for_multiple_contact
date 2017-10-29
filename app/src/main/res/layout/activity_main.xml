@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayu.contactpicker_topickmultiplecontact.MainActivity">
+
+
+    <EditText
+        android:id="@+id/Name1"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/Name1"
+        android:inputType="text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/Phone1"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Name1"
+        android:layout_below="@+id/Name1"
+        android:layout_marginTop="32dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="@string/Phone1"
+        />
+
+    <Button
+        android:id="@+id/PickContactButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/PickContact1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/Phone1"
+        android:layout_centerHorizontal="true"
+        android:onClick="PickContact"/>
+
+    <EditText
+        android:id="@+id/Name2"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/Name2"
+        android:inputType="text"
+        android:layout_below="@+id/PickContactButton1"
+        android:layout_alignStart="@+id/Phone1" />
+
+
+    <EditText
+        android:id="@+id/Phone2"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="@string/Phone2"
+        android:layout_below="@+id/Name2"
+        android:layout_alignStart="@+id/Name2" />
+
+    <Button
+        android:id="@+id/PickContactButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/PickContact2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/Phone2"
+        android:layout_alignStart="@+id/PickContactButton1"
+        android:onClick="PickContact"/>
+</RelativeLayout>

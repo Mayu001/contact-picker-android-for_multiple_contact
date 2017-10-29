@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contact Picker-To Pick Multiple Contact</string>
+    <string name="Phone1">Phone 1</string>
+    <string name="Name1">Name 1</string>
+    <string name="Phone2">Phone 2</string>
+    <string name="Name2">Name 2</string>
+    <string name="PickContact1">Pick Contact 1</string>
+    <string name="PickContact2">Pick Contact 2</string>
+</resources>
