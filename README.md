@@ -25,3 +25,5 @@ This projects pick the Multiple Contact from Phonebook using single picker code,
    <img src="https://user-images.githubusercontent.com/25576526/32242599-39de2e6e-be99-11e7-9f1e-ac341ed49b01.jpeg" width="350"/>
  </p>
  <hr>
+ <h2 align="center" style="color:blue"> If you find this repository useful for you, <i>star</i> it or <i>fork</i> it </h2>
+ <h2 align="center"> Thanks for coming here, Good luck!! </h2>
